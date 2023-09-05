@@ -1,7 +1,7 @@
 
 export default function NavBar() {
     return (
-        <nav className="flex justify-between items-center w-full sm:rounded-2xl pr-5" style={{ fontFamily: 'Lora, serif' }}>
+        <nav className="flex justify-between items-center w-full  px-5" style={{ fontFamily: 'Lora, serif' }}>
 
             <div className="flex items-center">
                 <a href="#" className="flex items-center">
@@ -11,8 +11,8 @@ export default function NavBar() {
                 </a>
             </div>
             <div className="flex items-center w-fit">
-                <img src='bbbp-logo.png' alt="Logo 1" className="h-10 md:h-10 mr-2" />
-                <img src='logo.png' alt="Logo 2" className="h-10 md:h-10 bg-[#FFECEC] rounded-full p-1" />
+                <img src='bbbp-logo.png' alt="Logo 1" className="h-10 md:h-16 mr-2" />
+                <img src='logo.png' alt="Logo 2" className="h-10 md:h-16 bg-[#FFECEC] rounded-full p-1" />
             </div>
         </nav>
     )
