@@ -1,12 +1,12 @@
 
 export default function NavBar() {
     return (
-        <nav className="flex justify-between items-center p-3  w-full sm:rounded-2xl container max-w-3xl  " style={{ fontFamily: 'Inter, sans-serif' }}>
+        <nav className="flex justify-between items-center w-full sm:rounded-2xl pr-5" style={{ fontFamily: 'Lora, serif' }}>
 
             <div className="flex items-center">
                 <a href="#" className="flex items-center">
-                    <img src="brand.png" alt="" className="h-8 md:h-10 mr-2" />
-                    <span className="hidden sm:inline-block text-2xl">Shree L.R. Tiwari College of Engineering</span>
+                    <img src="brand.png" alt="" className="h-8 md:h-10 mr-2 sm:hidden" />
+                    <img src='cover1.png' className="hidden h-24 sm:inline-block " />
                     <span className="sm:hidden">SLRTCE</span>
                 </a>
             </div>
