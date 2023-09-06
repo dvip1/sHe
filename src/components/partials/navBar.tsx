@@ -1,6 +1,7 @@
 
 export default function NavBar() {
     return (
+        <div className="center flex justify-center">
         <nav className="flex justify-between items-center p-3  w-full sm:rounded-2xl container max-w-3xl  " style={{ fontFamily: 'Lora, serif' }}>
 
             <div className="flex items-center">
@@ -15,5 +16,6 @@ export default function NavBar() {
                 <img src='logo.png' alt="Logo 2" className="h-10 md:h-10 bg-[#FFECEC] rounded-full p-1" />
             </div>
         </nav>
+        </div>
     )
 }
